@@ -1,0 +1,95 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    background-color: rgb(249, 247, 250);
+}
+
+.bg-navbar {
+    --bs-bg-opacity: 1;
+    background-color: #cf2e2e!important
+}
+footer.bg-footer {
+    --bs-bg-opacity: 1;
+    background-color: #cf2e2e!important
+}
+
+/* Estilos generales del navbar */
+.navbar-title {
+    transition-property: opacity, transform;
+    /* font-family: "Poetsen_One variant0", Tofu; */
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: none;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+    font-size: 4em;
+    color: white; 
+  }
+
+  .nav-link {
+    transition-property: opacity, transform;
+    font-family: "Dancing_Script variant0", Tofu;
+    font-size: 2em;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+    color: white;
+  }
+  
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media only screen and (max-width: 768px) {
+    /* Cambiar el color de fondo del navbar en dispositivos móviles */
+    .nav-link {
+        font-family: "Poetsen_One variant0", Tofu;
+        color: #cf2e2e!important;
+        font-weight: bold;
+    }
+    .navbar-title {
+        font-size: 30px;
+    }
+  }
+
+.title-card {
+    transition-property: opacity, transform;
+    font-family: "Dancing_Script variant0", Tofu;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h1.box-title-home {
+    font-family: "Gochi_Hand variant0", Tofu;
+    font-weight: 400;
+    line-height: initial;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #cf2e2e !important;
+    font-weight: bold;
+}
+
+h5.contact-title {
+    transition-property: opacity, transform;
+    font-family: "Nerko_One variant0", Tofu;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+    font-size: 2em;
+}

@@ -1,0 +1,5 @@
+Instlaciones para el base
+-- Instalacion de googel mapas
+
+-- Instalacion de font-awesome
+npm install bootstrap @fortawesome/fontawesome-free
